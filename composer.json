@@ -2,6 +2,12 @@
     "name": "typo3/neos-base-distribution",
     "description" : "TYPO3 Neos Base Distribution",
     "license": "GPL-3.0+",
+	"repositories": [
+		{
+			"type": "git",
+			"url": "ssh://git@github.com/dfeyer/Flowpack.NodeGenerator.git"
+		}
+	],
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
@@ -18,7 +24,7 @@
         "phpunit/phpunit": "3.7.*",
         "flowpack/behat": "dev-master",
         "sandstorm/plumber": "2.*",
-        "flowpack.nodegenerator": "dev-master"
+        "flowpack/nodegenerator": "dev-master"
     },
     "minimum-stability": "dev",
     "suggest": {
