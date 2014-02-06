@@ -11,6 +11,13 @@
 # TYPO3 Neos subroutes
 
 -
+  name: 'SandstormPlumber'
+  uriPattern: 'profiler/<SandstormPlumberSubroutes>'
+  subRoutes:
+    SandstormPlumberSubroutes:
+      package: Sandstorm.Plumber
+
+-
   name: 'TYPO3 Neos'
   uriPattern: '<TYPO3NeosSubroutes>'
   subRoutes:

@@ -16,7 +16,8 @@
         "typo3/buildessentials": "dev-master",
         "mikey179/vfsstream": "1.2.*",
         "phpunit/phpunit": "3.7.*",
-        "flowpack/behat": "dev-master"
+        "flowpack/behat": "dev-master",
+        "sandstorm/plumber": "2.*"
     },
     "minimum-stability": "dev",
     "suggest": {
