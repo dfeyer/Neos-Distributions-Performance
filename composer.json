@@ -9,7 +9,7 @@
     "require": {
         "typo3/neos": "dev-master",
         "typo3/neos-nodetypes": "dev-master",
-        "typo3/neosdemotypo3org": "dev-master",
+        "ttree/blog": "dev-master",
         "typo3/neos-kickstarter": "dev-master"
     },
     "require-dev": {
@@ -17,7 +17,8 @@
         "mikey179/vfsstream": "1.2.*",
         "phpunit/phpunit": "3.7.*",
         "flowpack/behat": "dev-master",
-        "sandstorm/plumber": "2.*"
+        "sandstorm/plumber": "2.*",
+        "flowpack.nodegenerator": "dev-master"
     },
     "minimum-stability": "dev",
     "suggest": {
